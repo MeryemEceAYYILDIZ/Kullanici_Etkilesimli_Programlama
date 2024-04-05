@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/x-icon" href="Resimler/Favicon/favicon.ico"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Great+Vibes&family=Homemade+Apple&family=Poiret+One&family=Russo+One&family=Sacramento&family=Tangerine&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-image: url("Resimler/arkaplan.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            p{
+                color: white;
+            }
+            .merhaba{
+                font-family: "Fredericka the great", sans-serif;
+                font-size: 50px;
+                letter-spacing: 15px;
+                text-shadow: 10px 10px 7px black;
+                text-align: center;
+                color: #a3988c;
+            }
+            .bme{
+                font-family: "Homemade apple", fantasy;
+                font-size: 50px;
+                letter-spacing: 15px;
+                text-align: center;
+                color: #ea881b;
+            }
+            .whoAmI{
+                margin-left: 5%;
+                margin-right: 5%;
+                padding-bottom: 2%;
+                padding-top: 2%;
+            }
+            .whoAmI p{
+                text-align: center;
+            }
+            .header{
+                position: relative;
+                padding: 30px;
+                text-align: center;
+                color: #a3988c;
+                background-color: #1b1b1b;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .anabaslik{
+                font-family: "Fredericka the great", sans-serif;
+                position: relative;
+                font-size: 30px;
+                letter-spacing: 15px;
+                text-shadow: 10px 10px 7px black;
+            }
+            .baslikdekorasyonu{
+                position: absolute;
+                font-family: "Homemade apple", fantasy;
+                font-size: 30px;
+                letter-spacing: 15px;
+                font-style: italic;
+                color: #ea881b;
+                top: 5px;
+                width: 96%;
+                text-shadow: 7px 7px 7px black;
+            }
+            aside{
+                width: 20%;
+                height: 100%;
+                margin-left: 2%;
+                float: left;
+                color: white;
+            }
+            .profilResmi{
+                border-radius: 50%;
+                align-content: center;
+            }
+            img{
+                border-radius: 20px;
+                border: #1b1b1b solid medium;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                display: block;
+            }
+            li{
+                list-style-type: none;
+                border-left: 1px solid #ea881b;
+                
+            }
+            .leftColumn{
+                background-color: #1b1b1b;
+            }
+            .isim{
+                font-family: "Fredericka the great", sans-serif;
+                letter-spacing: px;
+                color: #a3988c;
+                text-align: center;
+                padding-bottom: 30px;
+                border-bottom: 10px dotted #ea881b;
+                margin-left: 20px;
+                margin-right: 20px;
+            }
+            .centerColumn{
+                background: rgba(0,0,0,0.8);
+                width: 95%;
+                margin: auto;
+                margin-top: 35px;
+                border-radius: 20px;
+                box-shadow: 0px 0px 15px black;
+            }
+            .hakkimda{
+                width: 74%;
+                margin-right: 2%;
+                float: right;
+                border-left: 10px dotted #ea881b;
+            }
+            header, .baslik{
+                text-align: center;
+            }
+            
+            .Resim{
+                width: 25%;
+            }
+            .Resim img{
+                opacity: 0.5;
+            }
+            .Resim img:hover{
+                opacity: 1.0;
+                width: 100%;
+                transition: width 1s;
+            }
+            .footer{
+                width: 100%;
+                align-items: center;
+                color: white;
+                background: #1b1b1b;
+                float: bottom;
+                margin-top: 35px;
+                margin-bottom: 35px;
+            }
+            .footer table{
+                width: 100%;
+                text-align: center;
+            }
+            
+        </style>               
+    </head>
+    
+    <body>
+        <header>
+            <div>
+                <h1 class="merhaba">Merhaba!</h1>
+                <h1 class="bme">Ben Meryem Ece</h1>
+            </div> 
+        </header>
+        
+        <aside>
+            <div>
+                <img class="profilResmi" src="Resimler/profile.jpg" width="95%" alt="profil resmi"/>
+                <h3 class="isim">Meryem Ece AYYILDIZ</h3>
+            </div>
+            
+            <div class="leftColumn">
+                <table>
+                    <tr>
+                        <th>Doğum Tarihi: </th>
+                        <td><p>06.01.2001</p></td>
+                    </tr>
+                </table>
+
+                <h3>Eğitim</h3>
+                <ul>
+                    <li>
+                        <table>
+                            <tr>
+                                <td>Eylül 2021-Ağustos 2022</td>
+                                <td><a href="#E1"><p>Ankara Üniveristesi</p><p>Lisans Derecesi, Hemşirelik</p></a></td>
+                            </tr>
+                            <tr>
+                                <td>Ekim 2022 - devam ediyor</td>
+                                <td><a href="#E2"><p>Anadolu Üniveristesi</p><p>Lisans Derecesi, Görsel İletişim Tasarımı</p></a></td>
+                            </tr>
+                            <tr>
+                                <td>Ağustos 2022 - devam ediyor</td>
+                                <td><a href="#E2"><p>İnönü Üniveristesi</p><p>Lisans Derecesi, Yazılım Mühendisliği</p></a></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+
+                <h3>Diller</h3>
+                <ul>
+                    <li>
+                        <table>
+                            <tr>
+                                <td><img src="Resimler/türkiye.png" width="100px" alt="Türk bayrağı"/></td>
+                            </tr>
+                            <tr>
+                                <td><img src="Resimler/ingiltere.png" width="100px" alt="İngiliz Bayrağı"/></td>
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+
+                <h3>Hobiler</h3>
+                <ul>
+                    <li>
+                        <table>
+                            <tr>
+                                <td><a href="#R1"><img src="Resimler/Hobi/resim.png" width="100px" alt=""/></a>Resim Çizmek</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#R2"><img src="Resimler/Hobi/rölyef.png" width="100px" alt=""/></a>
+                                    <details>
+                                        <summary>Kağıt Rölyef</summary>
+                                        <p>Kağıt rölyef, rölyef çalışmaların tekniği olarak kullanılan sanatsal çalışmadır. 
+                                            Belirlenen sanat eserlerinin uzak veya yakın modellerinin kesme ve üst üste 
+                                            yapıştırılmasıyla boyut kazandırılmasıdır.</p>
+                                    </details>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><a href="#R3"><img src="Resimler/Hobi/kamera.png" width="100px" alt=""/></a>Fotoğraf çekmek</td>
+                            </tr>
+                            <tr>
+                                <td><a href="#R"><img src="Resimler/Hobi/kitap.png" width="100px" alt=""/></a>Kitap Okumak</td>
+                            </tr>
+                            <tr>
+                                
+                            </tr>
+                        </table>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    
+        <div class="hakkimda">
+            <div class="centerColumn">
+                <div class="header">
+                    <h1 class="anabaslik">---BEN KİMİM?---</h1>
+                    <h3 class="baslikdekorasyonu">ben Kimim?</h3>
+                </div>
+                <div class="whoAmI">
+                    <p>Merhaba! Ben Meryem Ece AYYILDIZ. 6 Ocak 2001 yılında Hatay'da doğdum.</p>
+                    <p>İlkokul ve ortaokulu Hatay'da okuduktan sonra Elazığ'a taşındık. Böylece liseyi Elazığ'da okudum.</p>
+                    <p>2019 yılında liseden mezun oldum ancak 2 yıl boyunca üniversite tercihi yapmadım.</p>
+                    <p id="E1">2021 yılında Ankara Üniversitesi Hemşirelik Fakültesine yerleştim. 
+                        Birinci sınıfı 3.68/4.0 ortalama ile bitirdikten sonra tekrar YKS sınavına girdim.</p>
+                    <p id="E2">2022 yılında İnönü Üniversitesi, Yazılım Mühendisliği bölümüne yerleştim. 
+                        Aynı zamanda Anadolu Üniversitesi Görsel İletişim Tasarımı bölümünü de açıktan okumaktayım. 
+                        Her iki bölümde de 2. sınıftayım ve öğrenime devam etmekteyim.</p>
+                </div>
+            </div>
+            <div id="R1">
+                <div class="centerColumn">
+                    <div class="header">
+                        <h1 class="anabaslik">---ÇİZİMLERİM---</h1>
+                        <h3 class="baslikdekorasyonu">çizimlerim</h3>
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="Resim">
+                                <img src="Resimler/kelebek.png" width="90%" alt="Kelebek Tablosu"/>
+                            </td>
+                            <td class="Resim">
+                                <img src="Resimler/manzara.jpg" width="90%" alt="Manzara Tablosu"/>
+                            </td>
+                            <td class="Resim">
+                                <img src="Resimler/piyano.jpg" width="90%" alt="Piyano Tablosu"/>
+                            </td>
+                            <td class="Resim">
+                                <img src="Resimler/bülbül.jpg" width="90%" alt="Bülbül Tablosu"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <div>
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="R2">
+                <div class="centerColumn">
+                    <div class="header">
+                        <h1 class="anabaslik">---RÖLYEF---</h1>
+                        <h3 class="baslikdekorasyonu">rölyef</h3>
+                    </div>
+                    <table>
+                        <tr>
+                            <td class="Resim">
+                                <img src="Resimler/Rölyef/kuş.jpg" width="90%" alt="Turuncu Çiçekli Vazo Tablosu"/>
+                            </td>
+                            <td class="Resim">
+                                <img src="Resimler/Rölyef/vav.jpg" width="90%" alt="Vav harfi Tablosu"/>
+                            </td>
+                            <td class="Resim">
+                                <img src="Resimler/Rölyef/lale.jpg" width="90%" alt="Lale Tablosu"/>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="footer">
+                <table>                        
+                    <tr>
+                        <td>
+                            <a href="https://www.linkedin.com/in/meryem-ece-ayyildiz-b44963254/" target="_blank">
+                                <img src="Resimler/İletişim/linkedin.png" width="100px" alt="linkedin logosu"/>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/MeryemEceAYYILDIZ" target="_blank">
+                                <img src="Resimler/İletişim/github.png" width="100px" alt="Github logosu"/>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.instagram.com/luxuria_magna?igsh=aXZpNnN6eXZ3NThp" target="_blank">
+                                <img src="Resimler/İletişim/instagram.png" width="100px" alt="instagram logosu"/>
+                            </a>
+                        </td>
+                        <td>
+                            <a href="mailto: meryem_ece06@hotmail.com" target="_blank">
+                                <img src="Resimler/İletişim/outlook.png" width="100px" alt="outlook logosu"/>
+                            </a>
+                        </td>
+                        <td>
+                            <img src="Resimler/İletişim/discord.png" width="100px" alt="discord logosu"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>LinkedIn</td>                            
+                        <td>Github</td>
+                        <td>Instagram</td>
+                        <td>Outlook</td>
+                        <td>initium8847</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
